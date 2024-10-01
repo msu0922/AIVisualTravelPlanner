@@ -12,8 +12,8 @@
   * #### Huigwang Cha
 
 ## ⚙️ ENVIRONMENT
-- `Java 8`
-- `JDK 17.0.2`
+- `Java 17`
+- `JDK 17.0.12`
 - `IntelliJ IDEA`
 - `Springboot(3.3.4)`
 - `H2Database`
