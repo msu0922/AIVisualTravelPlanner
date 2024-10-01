@@ -1,4 +1,4 @@
-package team18.ai_travel_planner.entity;
+package team18.ai_visual_travel_planner.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

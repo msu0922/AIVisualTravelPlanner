@@ -1,10 +1,10 @@
-package team18.ai_travel_planner.controller;
+package team18.ai_visual_travel_planner.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import team18.ai_travel_planner.service.ChatGPTService;
+import team18.ai_visual_travel_planner.service.ChatGPTService;
 
 @RestController
 public class ChatGPTController {
@@ -21,6 +21,8 @@ public class ChatGPTController {
     public String chat(@RequestParam String message) {
         try {
             // ChatGPTService에서 처리된 응답을 문자열로 받아옴
+//            System.out.println("Question : " + message);
+//            System.out.println("Response : " + chatGPTService.getChatGPTResponse(message));
             return chatGPTService.getChatGPTResponse(message);
         } catch (Exception e) {
             e.printStackTrace();

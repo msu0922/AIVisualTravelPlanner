@@ -6,7 +6,7 @@ import sys
 import os
 
 # OpenAI API 키 설정
-openai.api_key = 'api_key_str' # 수정 필요!
+openai.api_key = 'api_key_string' # 수정 필요!
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf8')
 sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf8')
 

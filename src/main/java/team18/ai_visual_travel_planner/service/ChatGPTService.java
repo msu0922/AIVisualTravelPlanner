@@ -1,4 +1,4 @@
-package team18.ai_travel_planner.service;
+package team18.ai_visual_travel_planner.service;
 
 import org.springframework.stereotype.Service;
 
